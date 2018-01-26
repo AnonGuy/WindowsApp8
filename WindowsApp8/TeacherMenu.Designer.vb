@@ -39,7 +39,7 @@ Partial Class TeacherMenu
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Corbel", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(11, 146)
+        Me.Button2.Location = New System.Drawing.Point(12, 61)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(199, 39)
         Me.Button2.TabIndex = 3
@@ -50,7 +50,7 @@ Partial Class TeacherMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(222, 197)
+        Me.ClientSize = New System.Drawing.Size(222, 113)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "TeacherMenu"

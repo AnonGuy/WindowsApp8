@@ -1,5 +1,5 @@
 ﻿Module Module1
-    Dim words As New Dictionary(Of String, String) From {
+    Public words As New Dictionary(Of String, String) From {
         {"hectare", "A unit of area."}, {"active", "Being busy."},
         {"amaze", "To surprise."}, {"bound", "To leap and jump."},
         {"cavern", "A large cave."}, {"difficult", "Hard to do."},
@@ -22,7 +22,7 @@
     Function ResizeString(input As String, length As Integer)
         Dim diff = length - Len(input)
         If diff > 0 Then
-            Return input + (" " * (diff))
+            Return input + StrDup(diff, " ")
         ElseIf diff < 0 Then
             Return input.Substring(0, length - 1)
         End If
