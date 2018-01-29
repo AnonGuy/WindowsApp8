@@ -12,3 +12,17 @@
 \\file-home4\JerBob17$\Desktop\Wasp-master\Wasp-master\WindowsApp8\obj\Debug\WindowsApp8.xml
 \\file-home4\JerBob17$\Desktop\Wasp-master\Wasp-master\WindowsApp8\obj\Debug\WindowsApp8.pdb
 \\file-home4\JerBob17$\Desktop\Wasp-master\Wasp-master\WindowsApp8\obj\Debug\WindowsApp8.StudentMenu.resources
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\bin\Debug\WindowsApp8.exe.config
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\bin\Debug\WindowsApp8.exe
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\obj\Debug\WindowsApp8.vbprojResolveAssemblyReference.cache
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\obj\Debug\WindowsApp8.MainMenu.resources
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\obj\Debug\WindowsApp8.Resources.resources
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\obj\Debug\WindowsApp8.StudentMenu.resources
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\obj\Debug\WindowsApp8.TeacherMenu.resources
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\obj\Debug\WindowsApp8.vbproj.GenerateResource.Cache
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\obj\Debug\WindowsApp8.vbproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\obj\Debug\WindowsApp8.exe
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\obj\Debug\WindowsApp8.xml
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\obj\Debug\WindowsApp8.pdb
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\bin\Debug\WindowsApp8.pdb
+C:\Users\jerem\Desktop\wasp-master\WindowsApp8\bin\Debug\WindowsApp8.xml

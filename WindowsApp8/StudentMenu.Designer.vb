@@ -30,6 +30,7 @@ Partial Class StudentMenu
         Me.Label2 = New System.Windows.Forms.Label()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'WordList
@@ -65,29 +66,31 @@ Partial Class StudentMenu
         Me.Progress.Font = New System.Drawing.Font("Corbel", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Progress.Location = New System.Drawing.Point(120, 16)
         Me.Progress.Name = "Progress"
-        Me.Progress.Size = New System.Drawing.Size(73, 19)
+        Me.Progress.Size = New System.Drawing.Size(54, 19)
         Me.Progress.TabIndex = 6
-        Me.Progress.Text = "Progress: "
+        Me.Progress.Text = "Score: "
         '
         'Label1
         '
-        Me.Label1.AutoSize = True
+        Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.Font = New System.Drawing.Font("Corbel", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(93, 201)
+        Me.Label1.Location = New System.Drawing.Point(12, 204)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(123, 23)
+        Me.Label1.Size = New System.Drawing.Size(290, 23)
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "4 letter word:"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Label2
         '
-        Me.Label2.AutoSize = True
+        Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.Font = New System.Drawing.Font("Corbel", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(104, 230)
+        Me.Label2.Location = New System.Drawing.Point(12, 230)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(101, 19)
+        Me.Label2.Size = New System.Drawing.Size(291, 19)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "A unit of area."
+        Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'TextBox1
         '
@@ -107,6 +110,18 @@ Partial Class StudentMenu
         Me.Button1.Text = "Submit"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Label3
+        '
+        Me.Label3.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Label3.BackColor = System.Drawing.SystemColors.Control
+        Me.Label3.Font = New System.Drawing.Font("Corbel", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(12, 16)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(290, 19)
+        Me.Label3.TabIndex = 6
+        Me.Label3.Text = "Score: "
+        Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'StudentMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -116,6 +131,7 @@ Partial Class StudentMenu
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Progress)
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Button2)
@@ -135,4 +151,5 @@ Partial Class StudentMenu
     Friend WithEvents Label2 As Label
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label3 As Label
 End Class

@@ -1,10 +1,14 @@
 ﻿Module Module1
-    Public words As New Dictionary(Of String, String) From {
-        {"hectare", "A unit of area."}, {"active", "Being busy."},
-        {"amaze", "To surprise."}, {"bound", "To leap and jump."},
-        {"cavern", "A large cave."}, {"difficult", "Hard to do."},
-        {"frozen", "Turned to ice."}, {"garage", "Building housing a car."},
-        {"jaguar", "A large cat."}, {"lemonade", "A fizzy drink."}}
+    Public words As New Dictionary(Of String, String)
+    Sub LoadWords()
+        words.Clear()
+        Dim content As String() =
+            My.Computer.FileSystem.ReadAllText("words.csv").Split(vbNewLine)
+        For Each line In content
+            Dim current As String() = line.Split(",")
+            words.Add(current(0), current(1))
+        Next
+    End Sub
     Function GetScore(input As String, target As String)
         input = input.ToLower()
         target = target.ToLower()
@@ -31,7 +35,7 @@
     Sub AddWord()
         Dim word = InputBox("What is your word?")
         Dim definition = InputBox("What is the definition?")
-        words.Add(word, definition)
+        words.Add(definition, word)
         MsgBox("Word Added.")
     End Sub
 End Module
