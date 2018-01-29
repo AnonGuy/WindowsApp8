@@ -46,7 +46,7 @@ Partial Class StudentMenu
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Corbel", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(5, 346)
+        Me.Button2.Location = New System.Drawing.Point(12, 340)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(84, 28)
         Me.Button2.TabIndex = 4
@@ -74,7 +74,7 @@ Partial Class StudentMenu
         '
         Me.Label1.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.Font = New System.Drawing.Font("Corbel", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(12, 204)
+        Me.Label1.Location = New System.Drawing.Point(12, 205)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(290, 23)
         Me.Label1.TabIndex = 7
@@ -85,9 +85,9 @@ Partial Class StudentMenu
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Left Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.Font = New System.Drawing.Font("Corbel", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(12, 230)
+        Me.Label2.Location = New System.Drawing.Point(12, 231)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(291, 19)
+        Me.Label2.Size = New System.Drawing.Size(290, 19)
         Me.Label2.TabIndex = 8
         Me.Label2.Text = "A unit of area."
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -95,7 +95,7 @@ Partial Class StudentMenu
         'TextBox1
         '
         Me.TextBox1.Font = New System.Drawing.Font("Corbel", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(54, 257)
+        Me.TextBox1.Location = New System.Drawing.Point(52, 258)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(208, 27)
         Me.TextBox1.TabIndex = 9
@@ -103,7 +103,7 @@ Partial Class StudentMenu
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Corbel", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(118, 290)
+        Me.Button1.Location = New System.Drawing.Point(117, 291)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 29)
         Me.Button1.TabIndex = 10
@@ -126,7 +126,7 @@ Partial Class StudentMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(315, 381)
+        Me.ClientSize = New System.Drawing.Size(315, 380)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label2)

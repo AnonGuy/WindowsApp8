@@ -24,6 +24,7 @@ Partial Class TeacherMenu
     Private Sub InitializeComponent()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.AnalyseButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Button1
@@ -39,18 +40,29 @@ Partial Class TeacherMenu
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Corbel", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(12, 61)
+        Me.Button2.Location = New System.Drawing.Point(12, 102)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(199, 39)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Exit"
         Me.Button2.UseVisualStyleBackColor = True
         '
+        'AnalyseButton
+        '
+        Me.AnalyseButton.Font = New System.Drawing.Font("Corbel", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.AnalyseButton.Location = New System.Drawing.Point(12, 57)
+        Me.AnalyseButton.Name = "AnalyseButton"
+        Me.AnalyseButton.Size = New System.Drawing.Size(199, 39)
+        Me.AnalyseButton.TabIndex = 4
+        Me.AnalyseButton.Text = "Analyse"
+        Me.AnalyseButton.UseVisualStyleBackColor = True
+        '
         'TeacherMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(222, 113)
+        Me.ClientSize = New System.Drawing.Size(223, 152)
+        Me.Controls.Add(Me.AnalyseButton)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Name = "TeacherMenu"
@@ -61,4 +73,5 @@ Partial Class TeacherMenu
 
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
+    Friend WithEvents AnalyseButton As Button
 End Class

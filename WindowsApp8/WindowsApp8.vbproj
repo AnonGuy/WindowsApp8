@@ -52,6 +52,7 @@
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -72,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AnalyseStudent.Designer.vb">
+      <DependentUpon>AnalyseStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AnalyseStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -109,6 +116,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AnalyseStudent.resx">
+      <DependentUpon>AnalyseStudent.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
     </EmbeddedResource>
